@@ -83,8 +83,38 @@
                 <label for="check3"> 3</label><br>
             </div>
 
-            <div>
-                <br> align-content: <br>
+
+        </div>
+
+        <!-- So this is the other one of our interactve containers.
+    we want to be able to add and remove items using javascript -->
+        <div class="column cont2">
+            <div class="itum">one</div>
+            <div class="itum">two</div>
+            <div class="itum">three</div>
+        </div>
+    </div>
+
+    <!-- these are the titles fot the lower options panels. I figure they should be informtive,
+    discreet and very close to the panels, v little lower margin, higher top. maybe a smaller font too -->
+    <div class="headingcont2 cont2">
+        <div class="heading2">
+            <h2>Flex Container 1 Settings</h2>
+        </div>
+        <div class="heading2">
+            <h2>Item Flex Settings</h2>
+        </div>
+        <div class="heading2">
+            <h2>Flex Container 2 Settings</h2>
+        </div>
+    </div>
+
+    <!-- this is the Flex-Container options for the left panel. It will contain mainly radiobuttons
+    to toggle flex-container settings for the left container -->
+    <div class="space-between">
+        <div class="botColumn">
+
+            <div><br> align-content: <br>
                 <input type="radio" id="flex-start" name="align-content" value="flex-start">
                 <label for="flex-start">flex-start</label><br>
 
@@ -115,49 +145,94 @@
                 <input type="radio" id="baseline" name="align-content" value="baseline">
                 <label for="baseline">baseline</label><br>
 
+                <input type="radio" id="first baseline" name="align-content" value="first baseline">
+                <label for="first baseline">first baseline</label><br>
+
+                <input type="radio" id="last baseline" name="align-content" value="last baseline">
+                <label for="last baseline">last baseline</label><br>
+
             </div>
-            <div></div>
-        </div>
 
-        <!-- So this is the other one of our interactve containers.
-    we want to be able to add and remove items using javascript -->
-        <div class="column cont2">
-            <div class="itum">one</div>
-            <div class="itum">two</div>
-            <div class="itum">three</div>
-        </div>
-    </div>
+            <div>
+                <br> justify-content: <br>
+                <input type="radio" id="flex-start" name="justify-content" value="flex-start">
+                <label for="flex-start">flex-start</label><br>
 
-    <!-- these are the titles fot the lower options panels. I figure they should be informtive,
-    discreet and very close to the panels, v little lower margin, higher top. maybe a smaller font too -->
-    <div class="headingcont2 cont2">
-        <div class="heading2">
-            <h2>Flex Container 1 Settings</h2>
-        </div>
-        <div class="heading2">
-            <h2>Item Flex Settings</h2>
-        </div>
-        <div class="heading2">
-            <h2>Flex Container 2 Settings</h2>
-        </div>
-    </div>
+                <input type="radio" id="flex-end" name="justify-content" value="flex-end">
+                <label for="flex-end">flex-end</label><br>
 
-    <!-- this is the Flex-Container options for the left panel. It will contain mainly radiobuttons
-    to toggle flex-container settings for the left container -->
-    <div class="space-between">
-        <div class="botColumn">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+                <input type="radio" id="center" name="justify-content" value="center">
+                <label for="center">center</label><br>
+
+                <input type="radio" id="space-between" name="justify-content" value="space-between">
+                <label for="space-between">space-between</label><br>
+
+                <input type="radio" id="space-around" name="justify-content" value="space-around">
+                <label for="space-around">space-around</label><br>
+
+                <input type="radio" id="space-evenly" name="justify-content" value="space-evenly">
+                <label for="space-evenly">space-evenly</label><br>
+
+                <input type="radio" id="start" name="justify-content" value="start">
+                <label for="start">start</label><br>
+
+                <input type="radio" id="end" name="justify-content" value="end">
+                <label for="end">end</label><br>
+
+                <input type="radio" id="left" name="justify-content" value="left">
+                <label for="left">left</label><br>
+
+                <input type="radio" id="right" name="justify-content" value="right">
+                <label for="right">right</label><br>
+
+                <input type="radio" id="last baseline" name="justify-content" value="last baseline">
+                <label for="last baseline">last baseline</label><br>
+
+            </div>
+            <div><br> align-items: <br>
+                <input type="radio" id="stretch" name="align-items" value="stretch">
+                <label for="stretch">stretch</label><br>
+
+                <input type="radio" id="flex-start" name="align-items" value="flex-start">
+                <label for="flex-start">flex-start</label><br>
+
+                <input type="radio" id="flex-end" name="align-items" value="flex-end">
+                <label for="flex-end">flex-end</label><br>
+
+                <input type="radio" id="center" name="align-items" value="center">
+                <label for="center">center</label><br>
+
+                <input type="radio" id="baseline" name="align-items" value="baseline">
+                <label for="baseline">baseline</label><br>
+
+                <input type="radio" id="first baseline" name="align-items" value="first baseline">
+                <label for="first baseline">first baseline</label><br>
+
+                <input type="radio" id="last baseline" name="align-items" value="last baseline">
+                <label for="last baseline">last baseline</label><br>
+
+                <input type="radio" id="start" name="align-items" value="start">
+                <label for="start">start</label><br>
+
+                <input type="radio" id="end" name="align-items" value="end">
+                <label for="end">end</label><br>
+
+                <input type="radio" id="self-start" name="align-items" value="self-start">
+                <label for="self-start">self-start</label><br>
+
+                <input type="radio" id="self-end" name="align-items" value="self-end">
+                <label for="self-end">self-end</label><br>
+            </div>
         </div>
 
         <!-- this is the Flex-Item options for the left and right panel. It will contain mainly radiobuttons
     to toggle flex-item settings for the items in the left, right, or both containers -->
 
         <div class="midColumn">
-            <div></div>
+            <div><br>flex-grow:
+                <input type="radio" id="X" name="Y" value="X">
+                <label for="X">yeahhh</label><br>
+            </div>
             <div></div>
             <div></div>
             <div></div>
@@ -168,12 +243,46 @@
     to toggle flex-container settings for the right container -->
         <div class="botColumn">
             <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+
+            <div><br> flex-wrap: <br>
+                <input type="radio" id="nowrap" name="flex-wrap" value="nowrap">
+                <label for="nowrap">nowrap</label><br>
+
+                <input type="radio" id="wrap" name="flex-wrap" value="wrap">
+                <label for="wrap">wrap</label><br>
+
+                <input type="radio" id="wrap-reverse" name="flex-wrap" value="wrap-reverse">
+                <label for="wrap-reverse">wrap-reverse</label><br>
+            </div>
+
+            <div><br> flex-direction: <br>
+                <input type="radio" id="row" name="flex-direction" value="row">
+                <label for="row">row</label><br>
+
+                <input type="radio" id="row-reverse" name="flex-direction" value="row-reverse">
+                <label for="row-reverse">row-reverse</label><br>
+
+                <input type="radio" id="column" name="flex-direction" value="column">
+                <label for="column">column</label><br>
+
+                <input type="radio" id="column-reverse" name="flex-direction" value="column-reverse">
+                <label for="column-reverse">column-reverse</label><br>
+            </div>
+            <div><br> flex-flow: <br>
+                <input type="radio" id="column wrap" name="flex-flow" value="column wrap">
+                <label for="column wrap">column wrap</label><br>
+
+                <input type="radio" id="row no-wrap" name="flex-flow" value="row no-wrap">
+                <label for="row no-wrap">row no-wrap</label><br>
+
+                <input type="radio" id="row-reverse wrap-reverse" name="flex-flow" value="row-reverse wrap-reverse">
+                <label for="row-reverse wrap-reverse">row-reverse wrap-reverse</label><br>
+            </div>
+
         </div>
+
     </div>
+
 
 </body>
 
